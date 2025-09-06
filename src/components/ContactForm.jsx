@@ -28,10 +28,10 @@ export default function ContactForm() {
       onSubmit={handleSubmit(onSubmit)}
       className="space-y-4 card max-w-2xl"
     >
-      <h3 className="text-lg font-semibold">Contact / Registration</h3>
+      <h3 className="text-lg font-semibold dark:text-white">Contact / Registration</h3>
 
       <div>
-        <label className="text-sm">Full name</label>
+        <label className="text-sm dark:text-white">Full name</label>
         <input
           {...register("name", { required: "Name required" })}
           className="w-full mt-1 rounded-md p-3 border dark:border-slate-700 input-focus"
@@ -43,7 +43,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label className="text-sm">Email</label>
+        <label className="text-sm dark:text-white">Email</label>
         <input
           {...register("email", {
             required: "Email required",
@@ -58,7 +58,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label className="text-sm">Phone (optional)</label>
+        <label className="text-sm dark:text-white">Phone (optional)</label>
         <input
           {...register("phone")}
           className="w-full mt-1 rounded-md p-3 border dark:border-slate-700 input-focus"
@@ -67,7 +67,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label className="text-sm">Message / Why you'd like to join</label>
+        <label className="text-sm dark:text-white">Message / Why you'd like to join</label>
         <textarea
           {...register("message", { required: "Please add a short message" })}
           className="w-full mt-1 rounded-md p-3 border dark:border-slate-700 input-focus"
@@ -82,7 +82,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="px-4 py-2 rounded-lg bg-brand text-white"
+          className="px-4 py-2 rounded-lg bg-brand text-white hover:text-black"
         >
           {isSubmitting ? "Sending..." : "Send Message"}
         </button>
@@ -91,7 +91,7 @@ export default function ContactForm() {
           onClick={() => {
             reset();
           }}
-          className="px-4 py-2 rounded-lg border dark:border-slate-700"
+          className="px-4 dark:text-white py-2 rounded-lg border dark:border-slate-700"
         >
           Reset
         </button>

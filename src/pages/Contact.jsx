@@ -10,13 +10,13 @@ export default function Contact() {
     <section className="container py-12">
       <div className="grid md:grid-cols-2 gap-8">
         <div className="card">
-          <h2 className="text-2xl font-semibold">Contact Us</h2>
+          <h2 className="text-2xl font-semibold dark:text-white">Contact Us</h2>
           <p className="mt-2 text-slate-600 dark:text-slate-300">
             Questions about programs, partnerships, or volunteering? Reach out.
           </p>
 
           <div className="mt-6">
-            <p className="text-sm">Office</p>
+            <p className="text-sm dark:text-white">Office</p>
             <p className="text-sm text-slate-600 dark:text-slate-300">
               City, State — Registered as Section 8 nonprofit
             </p>
