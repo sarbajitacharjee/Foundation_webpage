@@ -1,15 +1,12 @@
-Here’s a clean `README.md` tailored for your **Anshumat Foundation Website** project 🚀
-
-````markdown
 # 🌐 Anshumat Foundation Website  
 
 A modern, responsive foundation website built with **React + Vite + TailwindCSS**.  
 It includes smooth animations (Framer Motion), dark/light theme toggle, API/data integration, and responsive layouts.  
 
+---
 
-## Demo 
-[Demo Link](https://foundation-webpage-5r1k.vercel.app/)
-
+## 🎥 Demo  
+[🌐 Live Demo](https://foundation-webpage-5r1k.vercel.app/)  
 
 ---
 
@@ -34,6 +31,14 @@ It includes smooth animations (Framer Motion), dark/light theme toggle, API/data
 - Axios (for API/data fetching)  
 
 ---
+
+## 🚀 Getting Started  
+
+### 1. Clone the repo  
+```bash
+git clone https://github.com/yourusername/Foundation_webpage.git
+cd Foundation_webpage
+
 
 ## 🚀 Getting Started  
 
@@ -89,7 +94,7 @@ src/
 
 ### 🏠 Home Page (Dark Mode)
 
-![Home Dark](./screenshots/home-dark.png)
+![Home Dark](./src/assets/ss/Screenshot%202025-09-06%20171734.png)
 
 ### 📋 Programs Page
 

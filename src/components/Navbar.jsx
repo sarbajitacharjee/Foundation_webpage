@@ -36,7 +36,7 @@ export default function Navbar(){
           
           {/* Theme Switcher */}
           <button
-            className="px-3 py-2 rounded-lg border dark:border-slate-700 text-sm flex items-center gap-2"
+            className="px-3 py-2 rounded-lg dark:text-white border dark:border-slate-700 text-sm flex items-center gap-2"
             onClick={() => setDark(!dark)}
             aria-label="Toggle theme"
           >

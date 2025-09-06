@@ -54,7 +54,7 @@ export default function Hero() {
               className="
     relative inline-flex items-center px-6 py-3 rounded-lg text-sm overflow-hidden
     border border-slate-200 dark:border-slate-700
-    transition-transform duration-300 ease-in-out hover:scale-105
+    transition-transform dark:text-white duration-300 ease-in-out hover:scale-105
   "
             >
               Contact Us <FaArrowRight className="ml-2" />
