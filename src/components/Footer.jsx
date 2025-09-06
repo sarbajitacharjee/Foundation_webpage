@@ -1,20 +1,21 @@
-import React from 'react'
-import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa'
-import logo from "../assets/logo.png"
+import React from "react";
+import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
+import logo from "../assets/logo.png";
 export default function Footer() {
   return (
     <footer className="bg-white dark:bg-slate-800 border-t dark:border-slate-700">
       <div className="container py-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
-        
         {/* Logo + Description */}
         <div className="flex flex-col gap-2">
-        <div className="flex  items-center">
-
-        <img src={logo} alt="company logo" width={60} />
-          <div className="font-bold text-xl text-slate-900 dark:text-white">Anshumat Foundation</div>
-        </div>
+          <div className="flex  items-center">
+            <img src={logo} alt="company logo" width={60} />
+            <div className="font-bold text-xl text-slate-900 dark:text-white">
+              Anshumat Foundation
+            </div>
+          </div>
           <div className="text-sm text-slate-500 dark:text-slate-300">
-            Section 8 nonprofit — empowering individuals through knowledge, mentorship, and career development.
+            Section 8 nonprofit — empowering individuals through knowledge,
+            mentorship, and career development.
           </div>
         </div>
 
@@ -37,5 +38,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

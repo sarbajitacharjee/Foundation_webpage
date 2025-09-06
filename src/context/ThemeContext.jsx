@@ -1,12 +1,12 @@
 /* eslint-disable react-refresh/only-export-components */
-import React, { createContext, useEffect, useState } from 'react';
+import React, { createContext, useEffect, useState } from "react";
 
 export const ThemeContext = createContext();
 
 export function ThemeProvider({ children }) {
   const [dark, setDark] = useState(() => {
-    const saved = localStorage.getItem('theme');
-    if (saved) return saved === 'dark';
+    const saved = localStorage.getItem("theme");
+    if (saved) return saved === "dark";
     // Default to light mode on first visit
     return false;
   });
@@ -14,11 +14,11 @@ export function ThemeProvider({ children }) {
   useEffect(() => {
     const root = document.documentElement;
     if (dark) {
-      root.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
+      root.classList.add("dark");
+      localStorage.setItem("theme", "dark");
     } else {
-      root.classList.remove('dark');
-      localStorage.setItem('theme', 'light');
+      root.classList.remove("dark");
+      localStorage.setItem("theme", "light");
     }
   }, [dark]);
 
