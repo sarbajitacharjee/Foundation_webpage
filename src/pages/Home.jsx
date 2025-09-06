@@ -3,7 +3,7 @@ import Hero from '../components/Hero'
 import MissionSection from '../components/MissionSection'
 import ProgramsList from '../components/ProgramsList'
 import { useNavigate } from 'react-router-dom'
-import Initiatives from '../components/initiatives'
+import Initiatives from "../components/Initiatives"
 
 export default function Home(){
   const navigate = useNavigate()
