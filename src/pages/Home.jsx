@@ -1,9 +1,9 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import MissionSection from '../components/MissionSection'
-import Initiatives from '../components/Initiatives'
 import ProgramsList from '../components/ProgramsList'
 import { useNavigate } from 'react-router-dom'
+import Initiatives from '../components/initiatives'
 
 export default function Home(){
   const navigate = useNavigate()
