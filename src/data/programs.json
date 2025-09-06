@@ -1,0 +1,38 @@
+[
+  {
+    "id": "p1",
+    "title": "Career Launchpad",
+    "dur": "8 weeks",
+    "summary": "Foundations, projects & mentor support."
+  },
+  {
+    "id": "p2",
+    "title": "Leadership Track",
+    "dur": "12 weeks",
+    "summary": "Soft skills, communication and leadership."
+  },
+  {
+      "id": "p3",
+      "title": "Women in Tech",
+      "dur": "6 weeks",
+      "summary": "Focused cohort for women entering tech."
+    },
+    {
+        "id": "p4",
+        "title": "AI & ML Foundations",
+        "dur": "10 weeks",
+    "summary": "Learn basics of Artificial Intelligence and Machine Learning."
+  },
+  {
+    "id": "p5",
+    "title": "Fullstack Web Development",
+    "dur": "14 weeks",
+    "summary": "Hands-on project-based web development program."
+},
+{
+  "id": "p2",
+  "title": "Leadership Track",
+  "dur": "12 weeks",
+  "summary": "Soft skills, communication and leadership."
+}
+]
