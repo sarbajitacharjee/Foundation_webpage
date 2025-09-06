@@ -7,8 +7,8 @@ export function ThemeProvider({ children }) {
   const [dark, setDark] = useState(() => {
     const saved = localStorage.getItem('theme');
     if (saved) return saved === 'dark';
-    // respect user system preference
-    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    // Default to light mode on first visit
+    return false;
   });
 
   useEffect(() => {
@@ -22,5 +22,9 @@ export function ThemeProvider({ children }) {
     }
   }, [dark]);
 
-  return <ThemeContext.Provider value={{ dark, setDark }}>{children}</ThemeContext.Provider>;
+  return (
+    <ThemeContext.Provider value={{ dark, setDark }}>
+      {children}
+    </ThemeContext.Provider>
+  );
 }
